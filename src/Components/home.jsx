@@ -157,8 +157,14 @@ export function Home() {
               backSpeed={50}
               attr="placeholder"
               loop
+  
             >
-              <input style={{ backgroundColor: "transparent", border: "0", }} type="text" />
+              <input style={{ 
+                 backgroundColor: "transparent", 
+                 border: "0",
+                 color: "white"  // Set your desired text color here
+                 }}
+                   type="text" />
             </ReactTyped>
           </p>
         </div>
@@ -254,6 +260,7 @@ export function Home() {
                     <div
                       className="progress-bar"
                       role="progressbar"
+                      style={{ width: "100%" }} 
                       aria-valuenow={100}
                       aria-valuemin={0}
                       aria-valuemax={100}
@@ -262,13 +269,14 @@ export function Home() {
                 </div>
                 <div className="progress">
                   <span className="skill">
-                    CSS <i className="val">95%</i>
+                    CSS <i className="val">100%</i>
                   </span>
                   <div className="progress-bar-wrap">
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      aria-valuenow={90}
+                      style={{ width: "100%" }} 
+                      aria-valuenow={100}
                       aria-valuemin={0}
                       aria-valuemax={100}
                     />
@@ -282,50 +290,7 @@ export function Home() {
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      aria-valuenow={75}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                    />
-                  </div>
-                </div>
-                <div className="progress">
-                  <span className="skill">
-                    JavaScript <i className="val">70%</i>
-                  </span>
-                  <div className="progress-bar-wrap">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow={75}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6" data-aos="fade-up" data-aos-delay={100}>
-                <div className="progress">
-                  <span className="skill">
-                    mongodb <i className="val">70%</i>
-                  </span>
-                  <div className="progress-bar-wrap">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow={55}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                    />
-                  </div>
-                </div>
-                <div className="progress">
-                  <span className="skill">
-                    expressjs <i className="val">70%</i>
-                  </span>
-                  <div className="progress-bar-wrap">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
+                      style={{ width: "90%" }} 
                       aria-valuenow={90}
                       aria-valuemin={0}
                       aria-valuemax={100}
@@ -334,13 +299,46 @@ export function Home() {
                 </div>
                 <div className="progress">
                   <span className="skill">
-                    reactjs <i className="val">70%</i>
+                    JavaScript <i className="val">95%</i>
                   </span>
                   <div className="progress-bar-wrap">
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      aria-valuenow={55}
+                      style={{ width: "95%" }} 
+                      aria-valuenow={95}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="progress">
+                  <span className="skill">
+                    sql <i className="val">75%</i>
+                  </span>
+                  <div className="progress-bar-wrap">
+                    <div
+                      className="progress-bar"
+                      style={{ width: "75%" }} 
+                      role="progressbar"
+                      aria-valuenow={75}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                    />
+                  </div>
+                </div>
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay={100}>
+                <div className="progress">
+                  <span className="skill">
+                    mongodb <i className="val">90%</i>
+                  </span>
+                  <div className="progress-bar-wrap">
+                    <div
+                      className="progress-bar"
+                      role="progressbar"
+                      style={{ width: "90%" }} 
+                      aria-valuenow={90}
                       aria-valuemin={0}
                       aria-valuemax={100}
                     />
@@ -348,13 +346,44 @@ export function Home() {
                 </div>
                 <div className="progress">
                   <span className="skill">
-                    nodeJs <i className="val">70%</i>
+                    express.js <i className="val">90%</i>
                   </span>
                   <div className="progress-bar-wrap">
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      aria-valuenow={80}
+                      style={{ width: "90%" }} 
+                      aria-valuenow={90}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                    />
+                  </div>
+                </div>
+                <div className="progress">
+                  <span className="skill">
+                    react.js <i className="val">90%</i>
+                  </span>
+                  <div className="progress-bar-wrap">
+                    <div
+                      className="progress-bar"
+                      role="progressbar"
+                      style={{ width: "90%" }} 
+                      aria-valuenow={90}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                    />
+                  </div>
+                </div>
+                <div className="progress">
+                  <span className="skill">
+                    node.Js <i className="val">90%</i>
+                  </span>
+                  <div className="progress-bar-wrap">
+                    <div
+                      className="progress-bar"
+                      style={{ width: "90%" }} 
+                      role="progressbar"
+                      aria-valuenow={90}
                       aria-valuemin={0}
                       aria-valuemax={100}
                     />
