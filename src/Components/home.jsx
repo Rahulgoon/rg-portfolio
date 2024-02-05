@@ -313,21 +313,6 @@ export function Home() {
                   </div>
                 </div>
               </div>
-              <div className="progress">
-                  <span className="skill">
-                    sql <i className="val">75%</i>
-                  </span>
-                  <div className="progress-bar-wrap">
-                    <div
-                      className="progress-bar"
-                      style={{ width: "75%" }} 
-                      role="progressbar"
-                      aria-valuenow={75}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                    />
-                  </div>
-                </div>
               <div className="col-lg-6" data-aos="fade-up" data-aos-delay={100}>
                 <div className="progress">
                   <span className="skill">
